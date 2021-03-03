@@ -3,7 +3,6 @@
     <Navbar />
     <Hero />
     <WorkExp />
-    <OsProject />
     <Dribble />
     <CodeLibrary />
     <Footer />

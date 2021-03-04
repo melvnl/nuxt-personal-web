@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2">
+  <div class="p-2 mt-16">
     <h1 class="text-2xl font-bold">
       Latest Work Experience
     </h1>

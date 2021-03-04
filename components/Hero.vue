@@ -6,7 +6,7 @@
         Hello, I’m Melvin!
       </h1>
       <p class="mb-4 text-xl text-left leading-6 mt-7 mr-0">
-        I’m a Software Engineer and sometimes an <span class="text-primaryColor font-semibold">UI/UX Designer</span>. I added value to society by building
+        I’m a <span class="text-primaryColor font-semibold">Software Engineer</span> and sometimes an <span class="text-primaryColor font-semibold">User Interface Designer</span>. I added value to society by building
         impactful software. Currently hooked with React,
         Typescript, and Golang
       </p>

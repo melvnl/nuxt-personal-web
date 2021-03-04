@@ -2,6 +2,7 @@
   <div class="body py-3 md:py-16 lg:py-16 px-2 md:px-14 lg:px-50 xl:px-80">
     <Navbar />
     <Hero />
+    <TechStack />
     <WorkExp />
     <Dribble />
     <CodeLibrary />

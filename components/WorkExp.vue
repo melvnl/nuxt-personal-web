@@ -22,6 +22,24 @@
           </p>
         </div>
       </div>
+      <div class="mt-2 flex flex-col md:flex-row hover:bg-backgroundHoverColor">
+        <div class="flex w-48 relative">
+          <img src="../assets/images/works/julizar.png" alt="" class="rounded">
+        </div>
+        <div class="flex flex-col md:pl-6 pt-1">
+          <div class="flex flex-wrap">
+            <h1 class="text-blue font-bold flex-auto text-xl">
+              Enter Digital Asia
+            </h1>
+            <div class="w-full flex-none text-sm font-medium text-gray-500 mt-2">
+              Co-Founder (May 2020 - Present)
+            </div>
+          </div>
+          <p class="mt-4 text-sm text-gray-500">
+            Build a Software Development Team, that handle e-commerce and business system from various clients.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>

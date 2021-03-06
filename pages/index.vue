@@ -2,7 +2,7 @@
   <div>
     <Hero />
     <TechStack />
-    <WorkExp />
+    <OsProject />
     <Dribble />
     <CodeLibrary />
     <Footer />

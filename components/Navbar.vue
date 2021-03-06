@@ -1,5 +1,6 @@
 /* eslint-disable indent */
 <template>
+  <!-- fixed left-80 right-80 for fixed-nvbar-->
   <div class="">
     <header class="flex flex-wrap items-center lg:py-0 py-2 font-medium">
       <div class="flex-1 flex justify-between items-center">

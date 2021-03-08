@@ -1,4 +1,5 @@
-# website
+# Personal Website Nuxtjs
+![1615182720473](https://user-images.githubusercontent.com/63998835/110280248-162e5f00-800d-11eb-957e-b8a7c089fb6e.png)
 
 ## Build Setup
 

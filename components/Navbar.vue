@@ -2,7 +2,7 @@
 <template>
   <!-- fixed left-80 right-80 for fixed-nvbar-->
   <div class="">
-    <header class="flex flex-wrap items-center lg:py-0 py-2 font-medium">
+    <header class="flex flex-wrap items-center lg:p-0 p-4 font-medium shadow-md lg:shadow-none">
       <div class="flex-1 flex justify-between items-center">
         <div>
           🌲 <span>Melvin Liu</span>
@@ -25,22 +25,22 @@
           <ul
             class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0"
           >
-            <li class="mx-1">
+            <li class="mx-1" @click="toggle">
               <nuxt-link to="/" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
                 Home
               </nuxt-link>
             </li>
-            <li class="mx-1">
+            <li class="mx-1" @click="toggle">
               <nuxt-link to="/about" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
                 About
               </nuxt-link>
             </li>
-            <li class="mx-1">
+            <li class="mx-1" @click="toggle">
               <nuxt-link to="/project" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
                 Projects
               </nuxt-link>
             </li>
-            <li class="mx-1">
+            <li class="mx-1" @click="toggle">
               <nuxt-link to="/blogs" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
                 Blogs
               </nuxt-link>

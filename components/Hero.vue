@@ -7,8 +7,7 @@
       </h1>
       <p class="mb-4 text-xl text-left leading-6 mt-7 mr-0">
         I’m a <span class="text-primaryColor font-semibold">Software Engineer</span> and sometimes an <span class="text-primaryColor font-semibold">User Interface Designer</span>. I added value to society by building
-        impactful software. Currently hooked with React,
-        Typescript, and Golang
+        impactful software. Currently hooked with Typescript, and Go.
       </p>
       <!-- <button class="bg-transparent hover:bg-gray-900 text-gray-900 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-gray-900 hover:border-transparent">
         Super Button

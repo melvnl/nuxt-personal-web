@@ -36,11 +36,6 @@
               </nuxt-link>
             </li>
             <li class="mx-1" @click="toggle">
-              <nuxt-link to="/project" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
-                Projects
-              </nuxt-link>
-            </li>
-            <li class="mx-1" @click="toggle">
               <nuxt-link to="/blogs" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
                 Blogs
               </nuxt-link>

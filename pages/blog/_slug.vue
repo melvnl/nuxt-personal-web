@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <article class="mt-20">
     <nuxt-content :document="article" />
   </article>
 </template>
@@ -17,7 +17,6 @@ export default {
 <style>
 
  article{
-     background: #F4F4F4;
      display: block;
      margin: 0 auto;
      padding: 50px 30px;

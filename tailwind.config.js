@@ -14,16 +14,20 @@ module.exports = {
   theme: {
     darkSelector: '.dark-mode',
     extend: {},
+    fill: {
+      white: '#FFFFFF'
+    },
     colors: {
       backgroundColor: '#F8FAFC',
       primaryColor: '#4952FC',
       secondaryColor: '#5183F5',
       fontColor: '#000000',
       backgroundHoverColor: '#F2F2F2',
+      darkBackgroundHoverColor: '#1A1A1A',
       fontSecondaryColor: '#FFFFFF',
       linkColor: '#5183F5',
       textWhite: '#FFFFFF',
-      linkHoveredColor: ''
+      darkBackground: '#202020'
     },
     fontFamily: {
       sans: ['Inter']

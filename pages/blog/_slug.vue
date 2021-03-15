@@ -19,14 +19,22 @@ export default {
  article{
      display: block;
      margin: 0 auto;
-     padding: 50px 30px;
      max-width: 800px;
  }
 
- h1{
-     font-size: 28px;
-     font-weight: 900;
-     margin-bottom: 30px;
+ h1, h2 ,h3 {
+   font-weight: 700;
  }
 
+ h1{
+     font-size: 24px;
+ }
+
+ h2{
+     font-size: 20px;
+ }
+
+ h3{
+     font-size: 18px;
+ }
 </style>

@@ -1,8 +1,8 @@
 /* eslint-disable indent */
 <template>
   <!-- fixed left-80 right-80 for fixed-nvbar-->
-  <div class="">
-    <header class="flex flex-wrap items-center lg:p-0 p-4 font-medium shadow-md lg:shadow-none">
+  <div class="nav fixed w-full shadow-md py-2 md:py-0 md:relative md:w-auto md:shadow-none bg-backgroundColor">
+    <header class="flex flex-wrap items-center lg:p-0 p-4 font-medium">
       <div class="flex-1 flex justify-between items-center">
         <div>
           👋 <span>Melvin Liu</span>
@@ -64,6 +64,13 @@ export default {
 </script>
 
 <style>
+
+.nav.fixed{
+  top: 0px;
+  lefT: 0px;
+  width: 100%;
+}
+
 a.nuxt-link-exact-active {
    color: #4952FC;
    font-weight: 700;

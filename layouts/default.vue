@@ -1,5 +1,5 @@
 <template>
-  <div class="body py-3 md:py-16 lg:py-16 px-2 md:px-14 lg:px-50 xl:px-80 dark:bg-darkBackground dark:text-textWhite">
+  <div class="body py-3 md:py-16 lg:py-16 px-2 md:px-14 lg:px-50 xl:px-80 bg-backgroundColor">
     <Navbar />
     <Nuxt />
   </div>
@@ -12,6 +12,10 @@
 <style>
 html {
   font-family: 'Inter', sans-serif;
+}
+
+*{
+  color: #343434;
 }
 
 *,

@@ -10,6 +10,18 @@ export default {
     const article = await $content('blog', params.slug).fetch()
 
     return { article }
+  },
+  head () {
+    return {
+      title: 'Melvin Liu - Blogs',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'keywords', content: 'Entrepreneurship Blogs, Software Engineering Blogs, Programming Blogs, Coding Blogs' },
+        { name: 'description', content: 'List of Blogs about Software Engineering & Entrepreneurship' },
+        { name: 'author', content: 'Melvin Liu' }
+      ]
+    }
   }
 }
 </script>

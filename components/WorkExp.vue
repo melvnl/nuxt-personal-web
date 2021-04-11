@@ -1,43 +1,72 @@
 <template>
   <div class="p-2 mt-16">
-    <h1 class="text-2xl font-bold">
-      Latest Work Experience
-    </h1>
-    <div class=" mt-5">
-      <div class="flex flex-col md:flex-row hover:bg-backgroundHoverColor">
-        <div class="flex w-48 relative">
-          <img src="../assets/images/works/julizar.png" alt="" class="rounded">
-        </div>
-        <div class="flex flex-col md:pl-6 pt-1">
-          <div class="flex flex-wrap">
-            <h1 class="text-blue font-bold flex-auto text-xl">
-              PT. Investasi Bersama Bangsa Indonesia
-            </h1>
-            <div class="w-full flex-none text-sm font-medium text-gray-500 mt-2">
-              Software Engineer (Jan 2021 - Present)
-            </div>
+    <div class="title-container flex flex-row items-center">
+      <h1 class="text-2xl font-bold">
+        Where I've Worked
+      </h1>
+      <hr class="ml-1 border-1 w-full">
+    </div>
+    <div class="mt-5">
+      <div class="mb-4 flex flex-col pt-1">
+        <div class="flex flex-wrap">
+          <h1 class="font-bold flex-auto text-xl">
+            Software Engineer - Intern <a href="https://www.ternakuang.id/" class="text-primaryColor">@TernakUang</a>
+          </h1>
+          <div class="w-full flex-none text-base font-medium text-gray-500 mt-2">
+            March 2021 - Present
           </div>
-          <p class="mt-4 text-sm text-gray-500">
-            Work for a fintech(ECF) company, using Nuxt, Tailwind and do UI/UX Design as well
-          </p>
+        </div>
+        <ul class="list-disc mt-4 ml-8 text-base">
+          <li class="my-1">
+            Working on mostly React Native for Ternak Uang Mobile App
+          </li>
+          <li class="my-1">
+            Develop IHSG(Indonesia Stock Market) chart in React Native
+          </li>
+          <li class="my-1">
+            Communicate with multi-disciplinary teams of engineers, designers, product on a daily basis
+          </li>
+        </ul>
+      </div>
+      <div class="mb-4 flex flex-col pt-1">
+        <div class="flex flex-wrap">
+          <h1 class="font-bold flex-auto text-xl">
+            Software Engineer <a href="https://julizar.id/" class="text-primaryColor">@Julizar</a>
+          </h1>
+          <div class="w-full flex-none text-base font-medium text-gray-500 mt-2">
+            Jan 2021 - Present
+          </div>
+        </div>
+        <ul class="list-disc mt-4 ml-8 text-base">
+          <li class="my-1">
+            Working on equity crowdfunding platform with Nuxt,Pug, Tailwind
+          </li>
+          <li class="my-1">
+            Julizar's representative from tech side to communicate with OJK, Aludi, and IDX
+          </li>
+          <li class="my-1">
+            Benchmarked User Interface for Julizar current site.
+          </li>
+        </ul>
+      </div>
+      <div class="mb-4 flex flex-col pt-1">
+        <div class="flex flex-wrap">
+          <h1 class="font-bold flex-auto text-xl">
+            Software Engineer<a href="https://www.instagram.com/enterdigitalasia/" class="text-primaryColor">@Enterdigital</a>
+          </h1>
+          <div class="w-full flex-none text-sm font-medium text-gray-500 mt-2">
+            May 2020 - Mar 2021
+          </div>
         </div>
       </div>
-      <div class="mt-2 flex flex-col md:flex-row hover:bg-backgroundHoverColor">
-        <div class="flex w-48 relative">
-          <img src="../assets/images/works/julizar.png" alt="" class="rounded">
-        </div>
-        <div class="flex flex-col md:pl-6 pt-1">
-          <div class="flex flex-wrap">
-            <h1 class="text-blue font-bold flex-auto text-xl">
-              Enter Digital Asia
-            </h1>
-            <div class="w-full flex-none text-sm font-medium text-gray-500 mt-2">
-              Co-Founder (May 2020 - Present)
-            </div>
+      <div class="mb-4 flex flex-col pt-1">
+        <div class="flex flex-wrap">
+          <h1 class="text-blue font-bold flex-auto text-xl">
+            UI/UX Designer - Intern <a href="http://www.slabdsgn.com/" class="text-primaryColor">@Slab! Design</a>
+          </h1>
+          <div class="w-full flex-none text-sm font-medium text-gray-500 mt-2">
+            Jul 2020 - Sept 2020
           </div>
-          <p class="mt-4 text-sm text-gray-500">
-            Build a Software Development Team, that handle e-commerce and business system from various clients.
-          </p>
         </div>
       </div>
     </div>
@@ -45,11 +74,8 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style lang="scss" scoped>
-
 </style>

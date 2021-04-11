@@ -36,7 +36,9 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    // https://google-analytics.nuxtjs.org/setup
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -44,13 +46,34 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxt/content',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    'nuxt-i18n'
   ],
+
+  i18n: {
+    locales: [{
+      name: 'Indonesia',
+      code: 'id',
+      iso: 'id-ID',
+      file: 'id.js'
+    },
+    {
+      name: 'English',
+      code: 'en',
+      iso: 'en-US',
+      file: 'en.js'
+    }],
+    langDir: 'lang/',
+    defaultLocale: 'en'
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
+  // Build Configuration: https://go.nuxtjs.dev/consfig-build
   build: {
+  },
+  googleAnalytics: {
+    // Options
   }
 }

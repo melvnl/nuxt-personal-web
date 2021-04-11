@@ -5,7 +5,7 @@
     <header class="flex flex-wrap items-center lg:p-0 p-4 font-medium shadow-md lg:shadow-none">
       <div class="flex-1 flex justify-between items-center">
         <div>
-          🌲 <span>Melvin Liu</span>
+          👋 <span>Melvin Liu</span>
         </div>
       </div>
 
@@ -35,10 +35,16 @@
                 About
               </nuxt-link>
             </li>
-            <li class="mx-1" @click="toggle">
+            <!-- <li class="mx-1" @click="toggle">
               <nuxt-link to="/blogs" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
                 Blogs
               </nuxt-link>
+            </li> -->
+            <li class="mx-1" @click="toggle">
+              <select class="px-2 lg:p-2 py-3 md:px-0 block  cursor-pointer  rounded-md focus:outline-none bg-backgroundColor">
+                <option>ID</option>
+                <option>EN</option>
+              </select>
             </li>
           </ul>
         </nav>

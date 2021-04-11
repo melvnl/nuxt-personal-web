@@ -26,21 +26,16 @@
             class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0"
           >
             <li class="mx-1" @click="toggle">
-              <nuxt-link to="/" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md dark:hover:bg-darkBackgroundHoverColor">
+              <nuxt-link to="/" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer ">
                 Home
               </nuxt-link>
             </li>
             <li class="mx-1" @click="toggle">
-              <nuxt-link to="/about" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
+              <nuxt-link to="/about" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer ">
                 About
               </nuxt-link>
             </li>
-            <!-- <li class="mx-1" @click="toggle">
-              <nuxt-link to="/blogs" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer hover:bg-backgroundHoverColor rounded-md">
-                Blogs
-              </nuxt-link>
-            </li> -->
-            <li class="mx-1" @click="toggle">
+            <li class="mx-1">
               <select class="px-2 lg:p-2 py-3 md:px-0 block  cursor-pointer  rounded-md focus:outline-none bg-backgroundColor">
                 <option>ID</option>
                 <option>EN</option>
@@ -70,7 +65,8 @@ export default {
 
 <style>
 a.nuxt-link-exact-active {
-  background-color: #F2F2F2;
+   color: #4952FC;
+   font-weight: 700;
 }
 
 </style>

@@ -3,7 +3,8 @@
     <Hero />
     <TechStack />
     <WorkExp />
-    <Dribble />
+    <Featured />
+    <Design />
     <CodeLibrary />
     <Footer />
   </div>

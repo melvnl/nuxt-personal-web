@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2 mt-16">
+  <div class="p-2 mt-16 md:p-0">
     <h1 class="text-2xl font-bold">
       See My Code Library
     </h1>

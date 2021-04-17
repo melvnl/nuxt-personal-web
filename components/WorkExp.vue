@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2 mt-16">
+  <div class="p-2 mt-16 md:p-0 ">
     <div class="title-container flex flex-row items-center">
       <h1 class="text-2xl font-bold">
         Where I've Worked
@@ -7,6 +7,16 @@
       <hr class="ml-1 border-1 w-full">
     </div>
     <div class="mt-5">
+      <div class="mb-4 flex flex-col pt-1">
+        <div class="flex flex-wrap">
+          <h1 class="font-bold flex-auto text-xl">
+            Software Engineer - Intern <a href="https://www.tanifund.com/" class="text-primaryColor">@Tanifund</a>
+          </h1>
+          <div class="w-full flex-none text-base font-medium text-gray-500 mt-2">
+            Incoming on May 2021
+          </div>
+        </div>
+      </div>
       <div class="mb-4 flex flex-col pt-1">
         <div class="flex flex-wrap">
           <h1 class="font-bold flex-auto text-xl">
@@ -52,20 +62,10 @@
       <div class="mb-4 flex flex-col pt-1">
         <div class="flex flex-wrap">
           <h1 class="font-bold flex-auto text-xl">
-            Software Engineer<a href="https://www.instagram.com/enterdigitalasia/" class="text-primaryColor">@Enterdigital</a>
+            Software Engineer <a href="https://www.instagram.com/enterdigitalasia/" class="text-primaryColor">@Enterdigital</a>
           </h1>
-          <div class="w-full flex-none text-sm font-medium text-gray-500 mt-2">
+          <div class="w-full flex-none text-base font-medium text-gray-500 mt-2">
             May 2020 - Mar 2021
-          </div>
-        </div>
-      </div>
-      <div class="mb-4 flex flex-col pt-1">
-        <div class="flex flex-wrap">
-          <h1 class="text-blue font-bold flex-auto text-xl">
-            UI/UX Designer - Intern <a href="http://www.slabdsgn.com/" class="text-primaryColor">@Slab! Design</a>
-          </h1>
-          <div class="w-full flex-none text-sm font-medium text-gray-500 mt-2">
-            Jul 2020 - Sept 2020
           </div>
         </div>
       </div>

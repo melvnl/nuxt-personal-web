@@ -1,5 +1,5 @@
 <template>
-  <div class="p-2">
+  <div class="p-2 md:p-0">
     <h1 class="text-2xl font-bold">
       Current Tech Stack
     </h1>

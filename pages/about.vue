@@ -1,6 +1,6 @@
 <template>
   <div class="py-3">
-    <div class="p-4 mt-16">
+    <div class="p-2 mt-16 md:p-0">
       <h1 class="text-4xl font-bold mb-10">
         About Me 👋
       </h1>

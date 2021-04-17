@@ -14,7 +14,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' }
     ]
   },
 
@@ -51,20 +51,24 @@ export default {
   ],
 
   i18n: {
-    locales: [{
-      name: 'Indonesia',
-      code: 'id',
-      iso: 'id-ID',
-      file: 'id.js'
-    },
-    {
-      name: 'English',
-      code: 'en',
-      iso: 'en-US',
-      file: 'en.js'
-    }],
-    langDir: 'lang/',
-    defaultLocale: 'en'
+    locales: ['en', 'id'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          hero: {
+            title: 'Hello, I’m Melvin!'
+          }
+
+        },
+        id: {
+          hero: {
+            title: 'Hello, Anj!'
+          }
+        }
+      }
+    }
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

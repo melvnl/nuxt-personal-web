@@ -5,7 +5,7 @@
     <header class="flex flex-wrap items-center lg:p-0 p-4 font-medium">
       <div class="flex-1 flex justify-between items-center">
         <div>
-          👋 <span>Melvin Liu</span>
+          <img src="~/assets/images/icons/logo.svg">
         </div>
       </div>
 

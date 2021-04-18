@@ -9,9 +9,7 @@
       </p>
     </div>
     <div class=" mt-5 md:p-0 grid grid-cols-1 gap-1">
-      <a href="https://dribbble.com/bymelvn" class="hover:opacity-50" aria-label="Skilvul x Tokopedia x DSC Binus">
-        <img src="../assets/images/works/featured/1.png" class="m-0 rounded-md" alt="Skilvul x Tokopedia x DSC Binus">
-      </a>
+      <img src="../assets/images/works/featured/1.png" class="m-0 rounded-md" alt="Skilvul x Tokopedia x DSC Binus">
     </div>
   </div>
 </template>

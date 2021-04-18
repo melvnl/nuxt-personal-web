@@ -22,6 +22,7 @@
       </h1>
       <AboutProjects />
     </div>
+    <hr class="mt-20">
   </div>
 </template>
 <script>

@@ -23,9 +23,7 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    '~/plugins/vue-tooltip.js'
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -35,41 +33,15 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode',
-    // https://google-analytics.nuxtjs.org/setup
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxt/content',
-    '@nuxtjs/color-mode',
-    'nuxt-i18n'
+    '@nuxt/content'
   ],
-
-  i18n: {
-    locales: ['en', 'id'],
-    defaultLocale: 'en',
-    vueI18n: {
-      fallbackLocale: 'en',
-      messages: {
-        en: {
-          hero: {
-            title: 'Hello, I’m Melvin!'
-          }
-
-        },
-        id: {
-          hero: {
-            title: 'Hello, Anj!'
-          }
-        }
-      }
-    }
-  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

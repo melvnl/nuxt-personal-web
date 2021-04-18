@@ -3,7 +3,7 @@
     <!--Left Col-->
     <div class="flex flex-col w-full lg:w-3/4 justify-center items-start">
       <h1 class="font-bold text-5xl my-4 text-gray-700">
-        {{ $t('hero.title') }}
+        Hello, I'm Melvin!
       </h1>
       <p class="mb-4 text-xl text-left leading-6 mt-7 mr-4">
         I’m a Software Engineer and sometimes an User Interface Designer. I added value to society by building

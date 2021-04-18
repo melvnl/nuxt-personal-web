@@ -1,12 +1,11 @@
 /* eslint-disable indent */
 <template>
-  <!-- fixed left-80 right-80 for fixed-nvbar-->
   <div class="nav fixed w-full shadow-md py-2 md:py-0 md:relative md:w-auto md:shadow-none bg-backgroundColor">
     <header class="flex flex-wrap items-center lg:p-0 p-4 font-medium">
       <div class="flex-1 flex justify-between items-center">
-        <div>
+        <nuxt-link to="/" class="block  cursor-pointer ">
           <img src="~/assets/images/icons/logo.svg">
-        </div>
+        </nuxt-link>
       </div>
 
       <label for="menu-toggle" class="pointer-cursor lg:hidden block" @click="toggle"><svg
@@ -26,20 +25,19 @@
             class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0"
           >
             <li class="mx-1" @click="toggle">
-              <nuxt-link to="/" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer ">
+              <nuxt-link to="/" class="lg:p-4 py-3 md:px-0 block  cursor-pointer ">
                 Home
               </nuxt-link>
             </li>
             <li class="mx-1" @click="toggle">
-              <nuxt-link to="/about" class="px-2 lg:p-4 py-3 md:px-0 block  cursor-pointer ">
+              <nuxt-link to="/about" class="lg:p-4 py-3 md:px-0 block  cursor-pointer ">
                 About
               </nuxt-link>
             </li>
-            <li class="mx-1">
-              <select class="px-2 lg:p-2 py-3 md:px-0 block  cursor-pointer  rounded-md focus:outline-none bg-backgroundColor">
-                <option>ID</option>
-                <option>EN</option>
-              </select>
+            <li class="mx-1" @click="toggle">
+              <nuxt-link to="/projects" class="lg:p-4 py-3 md:px-0 block  cursor-pointer ">
+                Projects
+              </nuxt-link>
             </li>
           </ul>
         </nav>

@@ -1,12 +1,10 @@
 <template>
   <div>
     <Hero />
-    <TechStack />
     <WorkExp />
     <Featured />
     <Design />
     <CodeLibrary />
-    <Footer />
   </div>
 </template>
 <script>

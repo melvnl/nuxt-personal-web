@@ -7,6 +7,7 @@
           <img
             class="w-full h-auto"
             src="~/assets/images/works/projects/ips.png"
+            alt="Indonesia Patisserie School"
           >
           <!--Tag-->
           <p class="text-primaryColor font-semibold text-base mt-2">
@@ -30,6 +31,7 @@
           <img
             class="w-full"
             src="~/assets/images/works/projects/ptgia.png"
+            alt="PT. Generasi Indo Abadi"
           >
           <!--Tag-->
           <p class="text-primaryColor font-semibold text-base mt-2">

@@ -13,9 +13,9 @@
     <!--Right Col-->
     <div class="w-full md:w-64 mx-auto md:mr-0 text-center min-h-80">
       <div class="rounded-md p-5 text-center  h-72 max-w-sm mx-auto bg-primaryColor shadow-2xl">
-        <img src="../assets/images/hero-img.png" class="mx-auto " alt="" srcset="">
+        <img src="../assets/images/hero-img.png" class="mx-auto " alt="Melvin Liu" srcset="">
         <p class="capitalize text-md mt-1 mb-3 text-fontSecondaryColor">
-          I share my journey on software engineering and entrepreneurship on <a href="http://" class="">Youtube!</a>
+          I share my journey on software engineering and entrepreneurship on Youtube!
         </p>
       </div>
     </div>

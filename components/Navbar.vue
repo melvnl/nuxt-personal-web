@@ -4,7 +4,7 @@
     <header class="flex flex-wrap items-center lg:p-0 p-4 font-medium">
       <div class="flex-1 flex justify-between items-center">
         <nuxt-link to="/" class="block  cursor-pointer ">
-          <img src="~/assets/images/icons/logo.svg">
+          <img src="~/assets/images/icons/logo.svg" alt="Melvin Liu, Software Engineer, Web Developer, Mobile Developer in Jakarta,Indonesia">
         </nuxt-link>
       </div>
 

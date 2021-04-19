@@ -4,6 +4,7 @@
     <WorkExp />
     <Featured />
     <Design />
+    <Exmp />
     <CodeLibrary />
   </div>
 </template>

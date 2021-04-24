@@ -21,7 +21,7 @@
           </h1>
           <div class=" mt-2">
             <p class="font-semibold text-sm">
-              Feb 24,2021
+              Dec 1,2020
             </p>
           </div>
         </div>
@@ -45,7 +45,55 @@
           </h1>
           <div class="mt-2">
             <p class="text-gray-500 font-semibold text-sm">
+              Feb 20,2021
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <!--Banner image-->
+          <img
+            class="w-full"
+            src="~/assets/images/works/projects/sooji.png"
+            alt="PT. Mysa Tama Deka"
+          >
+          <!--Tag-->
+          <p class="text-primaryColor font-semibold text-base mt-2">
+            Landing Page
+          </p>
+          <!--Title-->
+          <h1
+            class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate"
+          >
+            PT. Mysa Tama Deka
+          </h1>
+          <div class="mt-2">
+            <p class="text-gray-500 font-semibold text-sm">
               Feb 24,2021
+            </p>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <!--Banner image-->
+          <img
+            class="w-full"
+            src="~/assets/images/works/projects/ihsg.png"
+            alt="PT. Ternak Uang Nusantara"
+          >
+          <!--Tag-->
+          <p class="text-primaryColor font-semibold text-base mt-2">
+            Stock Chart Layout
+          </p>
+          <!--Title-->
+          <h1
+            class="font-semibold text-gray-900 leading-none text-xl mt-1 capitalize truncate"
+          >
+            PT. Ternak Uang Nusantara
+          </h1>
+          <div class="mt-2">
+            <p class="text-gray-500 font-semibold text-sm">
+              Apr 20,2021
             </p>
           </div>
         </div>

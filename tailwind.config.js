@@ -25,6 +25,7 @@ module.exports = {
       fontSecondaryColor: '#FFFFFF',
       linkColor: '#5183F5',
       textWhite: '#FFFFFF',
+      lineColor: '#E2E8F0',
       darkBackground: '#202020'
     },
     fontFamily: {

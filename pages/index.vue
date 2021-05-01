@@ -1,9 +1,9 @@
 <template>
   <div>
     <Hero />
-    <WorkExp />
+    <Trusted />
+    <Project />
     <Featured />
-    <Design />
     <CodeLibrary />
   </div>
 </template>

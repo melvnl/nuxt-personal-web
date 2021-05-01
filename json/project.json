@@ -1,0 +1,61 @@
+{
+    "project": [
+        {   "id": 0,
+            "url": "/projects/staycation.png",
+            "alt": "Staycation",
+            "slug":"Real Estate Booking site",
+            "title":"Staycation",
+            "date":"Dec 1,2020"
+        },
+        {   "id": 1,
+            "url": "/projects/julizar.png",
+            "alt": "PT. Investasi Bersama Bangsa Indonesia",
+            "slug":"Equity Crowdfunding Redesign",
+            "title":"Julizar",
+            "date":"Dec 1,2020"
+        },
+        {   "id": 2,
+            "url": "/projects/ihsg.png",
+            "alt": "PT. Ternak Uang Nusantara",
+            "slug":"Stock-chart (IHSG)",
+            "title":"PT. Ternak Uang Nusantara",
+            "date":"Dec 1,2020"
+        },
+        {   "id": 3,
+            "url": "/projects/binus.png",
+            "alt": "Bina Nusantara University",
+            "slug":"Human Computer Interaction Exam ",
+            "title":"Binus Audio House Design",
+            "date":"Dec 1,2020"
+        },
+        {   "id": 4,
+            "url": "/projects/ips.png",
+            "alt": "Indonesia Patisserie School",
+            "slug":"E-commerce",
+            "title":"Indonesia Patisserie School",
+            "date":"Dec 1,2020"
+        },
+        {   "id": 5,
+            "url": "/projects/ptgia.png",
+            "alt": "PT. Generasi Indo Abadi",
+            "slug":"Company Profile",
+            "title":"PT. Generasi Indo Abadi",
+            "date":"Dec 1,2020"
+        },
+        {   "id": 6,
+            "url": "/projects/nomads.png",
+            "alt": "Nomads",
+            "slug":"Flight Booking Site",
+            "title":"Nomads Travel",
+            "date":"Dec 1,2020"
+        },
+        {   "id": 7,
+            "url": "/projects/sooji.png",
+            "alt": "PT. Mysa Tama Deka",
+            "slug":"Landing Page",
+            "title":"PT. Mysa Tama Deka",
+            "date":"Dec 1,2020"
+        }
+    ] 
+}
+  

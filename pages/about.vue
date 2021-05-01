@@ -5,22 +5,21 @@
         About Me 👋
       </h1>
       <AboutDesc />
-      <h1 class="text-2xl font-bold mt-8">
-        Melvin :
+      <h1 class="text-2xl font-bold mt-8 mb-10">
+        Work Experience :
+        <hr class="mt-2 border-lineColor">
       </h1>
       <AboutProfile />
-      <h1 class="text-4xl mt-16 font-bold mb-10">
+      <h1 class="text-2xl mt-16 font-bold mb-10">
         Currently Using
+        <hr class="mt-2 border-lineColor">
       </h1>
       <AboutTech />
-      <h1 class="text-4xl mt-16 font-bold mb-10">
+      <h1 class="text-2xl mt-16 font-bold mb-10">
         Community
+        <hr class="mt-2 border-lineColor">
       </h1>
       <AboutCommunity />
-      <h1 class="text-4xl mt-16 font-bold mb-10">
-        Projects 🤩
-      </h1>
-      <AboutProjects />
     </div>
     <hr class="mt-20">
   </div>

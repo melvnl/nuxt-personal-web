@@ -34,10 +34,10 @@
                 About
               </nuxt-link>
             </li>
-            <li class="mx-1" @click="toggle">
-              <nuxt-link to="/projects" class="lg:p-4 py-3 md:px-0 block  cursor-pointer ">
-                Projects
-              </nuxt-link>
+            <li class="mx-1">
+              <a href="https://www.youtube.com/channel/UCa9w-ZqW-un9sgwHcmh-Nng" class="lg:p-4 py-3 md:px-0 block  cursor-pointer ">
+                Youtube
+              </a>
             </li>
           </ul>
         </nav>
@@ -71,7 +71,6 @@ export default {
 
 a.nuxt-link-exact-active {
    color: #4952FC;
-   font-weight: 700;
 }
 
 </style>

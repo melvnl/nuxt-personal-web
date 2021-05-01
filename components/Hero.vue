@@ -3,11 +3,10 @@
     <!--Left Col-->
     <div class="flex flex-col w-full lg:w-3/4 justify-center items-start">
       <h1 class="font-bold text-5xl my-4 text-gray-700">
-        Hello, I'm Melvin!
+        {{ homepage.hero.greeting }}
       </h1>
       <p class="mb-4 text-xl text-left leading-6 mt-7 mr-4">
-        I’m a Software Engineer and sometimes an User Interface Designer. I added value to society by building
-        impactful software. Currently hooked with Typescript, and Go.
+        {{ homepage.hero.leftDesc }}
       </p>
     </div>
     <!--Right Col-->
@@ -15,7 +14,7 @@
       <div class="rounded-md p-5 text-center  h-72 max-w-sm mx-auto bg-primaryColor shadow-2xl">
         <img src="../assets/images/hero-img.png" class="mx-auto " alt="Melvin Liu" srcset="">
         <p class="capitalize text-md mt-1 mb-3 text-fontSecondaryColor">
-          I share my journey on software engineering and entrepreneurship on Youtube!
+          {{ homepage.hero.rightDesc }}
         </p>
       </div>
     </div>
@@ -23,8 +22,13 @@
 </template>
 
 <script>
+import data from '~/json/homepage.json'
 export default {
-
+  data () {
+    return {
+      homepage: data
+    }
+  }
 }
 </script>
 

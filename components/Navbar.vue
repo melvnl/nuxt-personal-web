@@ -34,6 +34,11 @@
                 About
               </nuxt-link>
             </li>
+            <li class="mx-1" @click="toggle">
+              <nuxt-link to="/blogs" class="lg:p-4 py-3 md:px-0 block  cursor-pointer ">
+                Blog
+              </nuxt-link>
+            </li>
             <li class="mx-1">
               <a href="https://www.youtube.com/channel/UCa9w-ZqW-un9sgwHcmh-Nng" class="lg:p-4 py-3 md:px-0 block  cursor-pointer ">
                 Youtube
@@ -61,12 +66,13 @@ export default {
 }
 </script>
 
-<style>
+<style >
 
 .nav.fixed{
   top: 0px;
-  lefT: 0px;
+  left: 0px;
   width: 100%;
+  z-index: 99;
 }
 
 a.nuxt-link-exact-active {

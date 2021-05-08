@@ -1,6 +1,7 @@
 <template>
-  <article class="mt-20">
+  <article class="min-h-screen mt-20 p-2 md:p-0">
     <nuxt-content :document="article" />
+    <hr class="mt-4">
   </article>
 </template>
 
@@ -39,14 +40,34 @@ export default {
  }
 
  h1{
-     font-size: 24px;
- }
-
- h2{
-     font-size: 20px;
+     font-size: 2rem;
+     line-height: 2.25rem;
+     margin-bottom: 4px;
  }
 
  h3{
-     font-size: 18px;
+     font-size: 1.75rem;
+     margin-top: 60px;
+     margin-bottom: 20px;
+     border-bottom: 1px solid #EBEBEB;
+     width: 100%;
+     display: block;
  }
+
+blockquote{
+   margin-top: 1rem;
+   margin-bottom: 4rem;
+   padding-left: 1.25rem;
+   border: 1px solid #4952FC;
+   border-width: 0 0 0 .25rem;
+   font-weight: 700;
+   font-style: italic;
+}
+
+img{
+ widows: auto;
+ margin-top: 4px;
+ margin-bottom: 20px;
+}
+
 </style>

@@ -41,7 +41,8 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxt/content',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    '@nuxtjs/google-analytics'
   ],
 
   robots: {
@@ -57,5 +58,6 @@ export default {
   },
   googleAnalytics: {
     // Options
+    id: 'G-WJ8KJMG5S6'
   }
 }
